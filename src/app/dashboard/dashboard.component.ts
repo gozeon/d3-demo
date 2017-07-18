@@ -9,8 +9,9 @@ import * as data from '../../assets/demo.json';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
-  constructor() { }
+  demos = (<any>data).demos;
+  constructor() {
+  }
 
   ngOnInit() {
     console.log(data);
