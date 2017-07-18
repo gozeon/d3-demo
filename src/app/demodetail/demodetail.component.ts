@@ -15,8 +15,8 @@ export class DemodetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe(parms => {
-      this.id = +parms['id']
-    })
+      this.id = +parms['id'];
+    });
   }
 
 }
