@@ -1,5 +1,5 @@
 <div class="content">
-  <a *ngFor="let demo of demos">
+  <a *ngFor="let demo of demos" [routerLink]="['/demodetail', demo.id]">
     <div class="module">
       {{demo.name}}
     </div>
