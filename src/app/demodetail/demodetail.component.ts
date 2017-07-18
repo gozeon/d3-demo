@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, ParamMap } from '@angular/router';
+import 'rxjs/add/operator/switchMap';
 
 @Component({
   selector: 'app-demodetail',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./demodetail.component.css']
 })
 export class DemodetailComponent implements OnInit {
+  private id: number;
+  constructor(private route: ActivatedRoute) {
 
-  constructor() { }
+  }
 
   ngOnInit() {
+    this.route.params.subscribe(parms => {
+      this.id = +parms['id']
+    })
   }
 
 }
