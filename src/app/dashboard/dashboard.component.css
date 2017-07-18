@@ -1,0 +1,21 @@
+.content {
+  margin-top: 20px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.module {
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+  max-height: 120px;
+  min-width: 120px;
+  background-color: #607D8B;
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.module:hover {
+  background-color: #EEE;
+  cursor: pointer;
+  color: #607d8b;
+}
