@@ -2,8 +2,8 @@
   "demos": [
     {
       "id": 6,
-      "name": "axes-scatterplot",
-      "description":"Random number scatter plot with axes"
+      "name": "axis-scatterplot",
+      "description":"Random number scatter plot with axis"
     },
     {
       "id": 5,

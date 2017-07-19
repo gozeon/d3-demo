@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import * as d3 from 'd3';
 
 @Component({
-  selector: 'app-axesscatterplot',
+  selector: 'app-axisscatterplot',
   templateUrl: '../common/common.html',
   styleUrls: ['../common/common.css']
 })
-export class AxesscatterplotComponent implements OnInit {
+export class AxisscatterplotComponent implements OnInit {
   private code: string;
 
   constructor() { }

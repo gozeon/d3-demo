@@ -12,7 +12,7 @@ import { DrawingsvgscolorComponent } from './drawingsvgscolor/drawingsvgscolor.c
 import { MakingbarchartComponent } from './makingbarchart/makingbarchart.component';
 import { ScatterplotComponent } from './scatterplot/scatterplot.component';
 import { ScaleComponent } from './scale/scale.component';
-import { AxesscatterplotComponent } from './axesscatterplot/axesscatterplot.component';
+import { AxisscatterplotComponent } from './axisscatterplot/axisscatterplot.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { AxesscatterplotComponent } from './axesscatterplot/axesscatterplot.comp
     MakingbarchartComponent,
     ScatterplotComponent,
     ScaleComponent,
-    AxesscatterplotComponent
+    AxisscatterplotComponent
   ],
   imports: [
     BrowserModule,
