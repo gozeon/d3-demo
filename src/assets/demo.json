@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id":4,
+      "name": "scatterplot",
+      "description": "use svg draw a scatterplot"
+    },
+    {
       "id": 3,
       "name": "making_a_bar_chart_aligned",
       "description": "use svg draw a histogram with show num"

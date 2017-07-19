@@ -10,6 +10,7 @@ import { PowerofdataroundedComponent } from './powerofdatarounded/powerofdatarou
 import { EditorComponent } from './editor/editor.component';
 import { DrawingsvgscolorComponent } from './drawingsvgscolor/drawingsvgscolor.component';
 import { MakingbarchartComponent } from './makingbarchart/makingbarchart.component';
+import { ScatterplotComponent } from './scatterplot/scatterplot.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MakingbarchartComponent } from './makingbarchart/makingbarchart.compone
     PowerofdataroundedComponent,
     EditorComponent,
     DrawingsvgscolorComponent,
-    MakingbarchartComponent
+    MakingbarchartComponent,
+    ScatterplotComponent
   ],
   imports: [
     BrowserModule,
