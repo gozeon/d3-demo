@@ -1,7 +1,12 @@
 {
   "demos": [
     {
-      "id":4,
+      "id": 5,
+      "name": "scale",
+      "description": "how to use base scale"
+    },
+    {
+      "id": 4,
       "name": "scatterplot",
       "description": "use svg draw a scatterplot"
     },
