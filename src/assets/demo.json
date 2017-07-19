@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 3,
+      "name": "making_a_bar_chart_aligned",
+      "description": "use svg draw a histogram with show num"
+    },
+    {
       "id": 2,
       "name": "drawing_svgs_color",
       "description": "use svg draw circle with color"

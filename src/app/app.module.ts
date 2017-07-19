@@ -9,6 +9,7 @@ import { DemodetailComponent } from './demodetail/demodetail.component';
 import { PowerofdataroundedComponent } from './powerofdatarounded/powerofdatarounded.component';
 import { EditorComponent } from './editor/editor.component';
 import { DrawingsvgscolorComponent } from './drawingsvgscolor/drawingsvgscolor.component';
+import { MakingbarchartComponent } from './makingbarchart/makingbarchart.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DrawingsvgscolorComponent } from './drawingsvgscolor/drawingsvgscolor.c
     DemodetailComponent,
     PowerofdataroundedComponent,
     EditorComponent,
-    DrawingsvgscolorComponent
+    DrawingsvgscolorComponent,
+    MakingbarchartComponent
   ],
   imports: [
     BrowserModule,
