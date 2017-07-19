@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import * as data from '../../assets/demo.json';
+import { Demo } from '../demo';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-demolist',
@@ -6,10 +9,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./demolist.component.css']
 })
 export class DemolistComponent implements OnInit {
+  private demos = (<any>data).demos;
+  private selectedDemo: Demo;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  onSelect(demo: Demo): void {
+    this.selectedDemo = demo;
+  }
+
+  gotoDetail(): void {
+    this.router.navigate(['/demodetail', this.selectedDemo.id]);
+  }
 }
