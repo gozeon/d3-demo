@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { DemolistComponent } from './demolist/demolist.component';
 import { DemodetailComponent } from './demodetail/demodetail.component';
 import { PowerofdataroundedComponent } from './powerofdatarounded/powerofdatarounded.component';
+import { EditorComponent } from './editor/editor.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PowerofdataroundedComponent } from './powerofdatarounded/powerofdatarou
     DashboardComponent,
     DemolistComponent,
     DemodetailComponent,
-    PowerofdataroundedComponent
+    PowerofdataroundedComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
