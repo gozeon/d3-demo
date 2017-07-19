@@ -8,6 +8,7 @@ import { DemolistComponent } from './demolist/demolist.component';
 import { DemodetailComponent } from './demodetail/demodetail.component';
 import { PowerofdataroundedComponent } from './powerofdatarounded/powerofdatarounded.component';
 import { EditorComponent } from './editor/editor.component';
+import { DrawingsvgscolorComponent } from './drawingsvgscolor/drawingsvgscolor.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { EditorComponent } from './editor/editor.component';
     DemolistComponent,
     DemodetailComponent,
     PowerofdataroundedComponent,
-    EditorComponent
+    EditorComponent,
+    DrawingsvgscolorComponent
   ],
   imports: [
     BrowserModule,

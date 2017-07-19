@@ -1,54 +1,14 @@
 {
   "demos": [
     {
+      "id": 2,
+      "name": "drawing_svgs_color",
+      "description": "use svg draw circle with color"
+    },
+    {
       "id": 1,
       "name": "power_of_data_rounded",
-      "description": "Use a histogram to display random arrays"
-    },
-    {
-      "id": 2,
-      "name": "demo2",
-      "description": ""
-    },
-    {
-      "id": 3,
-      "name": "demo3",
-      "description": ""
-    },
-    {
-      "id": 4,
-      "name": "demo4",
-      "description": ""
-    },
-    {
-      "id": 5,
-      "name": "demo5",
-      "description": ""
-    },
-    {
-      "id": 6,
-      "name": "demo6",
-      "description": ""
-    },
-    {
-      "id": 7,
-      "name": "demo7",
-      "description": ""
-    },
-    {
-      "id": 8,
-      "name": "demo8",
-      "description": ""
-    },
-    {
-      "id": 9,
-      "name": "demo9",
-      "description": ""
-    },
-    {
-      "id": 10,
-      "name": "demo10",
-      "description": ""
+      "description": "use a histogram to display random arrays"
     }
   ]
 }
