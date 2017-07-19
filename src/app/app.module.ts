@@ -14,6 +14,7 @@ import { ScatterplotComponent } from './scatterplot/scatterplot.component';
 import { ScaleComponent } from './scale/scale.component';
 import { AxisscatterplotComponent } from './axisscatterplot/axisscatterplot.component';
 import { AxistimeComponent } from './axistime/axistime.component';
+import { AxistimeformatComponent } from './axistimeformat/axistimeformat.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AxistimeComponent } from './axistime/axistime.component';
     ScatterplotComponent,
     ScaleComponent,
     AxisscatterplotComponent,
-    AxistimeComponent
+    AxistimeComponent,
+    AxistimeformatComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 8,
+      "name": "axis-time-format",
+      "description":"show format time with axis"
+    },
+    {
       "id": 7,
       "name": "axis-time",
       "description":"show time with axis"
