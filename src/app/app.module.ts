@@ -6,13 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DemolistComponent } from './demolist/demolist.component';
 import { DemodetailComponent } from './demodetail/demodetail.component';
+import { PowerofdataroundedComponent } from './powerofdatarounded/powerofdatarounded.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     DemolistComponent,
-    DemodetailComponent
+    DemodetailComponent,
+    PowerofdataroundedComponent
   ],
   imports: [
     BrowserModule,
