@@ -41,15 +41,18 @@ export class AxisscatterplotComponent implements OnInit {
       .domain([0, d3.max(dataset, function (d) { return d[1]; })])
       .range([0, 10]);
 
+    // const formatAsPercentage = d3.format(",.1%");
     // Define X axis
     const xAxis = d3.axisBottom()
       .scale(xScale)
       .ticks(5);
+      // .tickFormat(formatAsPercentage);
 
     // Define Y axis
     const yAxis = d3.axisLeft()
       .scale(yScale)
       .ticks(5);
+      // .tickFormat(formatAsPercentage);
 
     // Create SVG element
     const svg = d3.select('.result')
@@ -112,15 +115,19 @@ const aScale = d3.scaleSqrt()
   .domain([0, d3.max(dataset, function (d) { return d[1]; })])
   .range([0, 10]);
 
+// const formatAsPercentage = d3.format(",.1%");
+
 // Define X axis
 const xAxis = d3.axisBottom()
   .scale(xScale)
   .ticks(5);
+  // .tickFormat(formatAsPercentage);
 
 // Define Y axis
 const yAxis = d3.axisLeft()
   .scale(yScale)
   .ticks(5);
+  // .tickFormat(formatAsPercentage);
 
 // Create SVG element
 const svg = d3.select('.result')
