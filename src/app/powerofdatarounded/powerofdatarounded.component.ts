@@ -4,7 +4,7 @@ import * as d3 from 'd3';
 @Component({
   selector: 'app-powerofdatarounded',
   templateUrl: './powerofdatarounded.component.html',
-  styleUrls: ['./powerofdatarounded.component.css'],
+  styleUrls: ['../common.css'],
   encapsulation: ViewEncapsulation.None,
 })
 export class PowerofdataroundedComponent implements OnInit {
