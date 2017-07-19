@@ -13,6 +13,7 @@ import { MakingbarchartComponent } from './makingbarchart/makingbarchart.compone
 import { ScatterplotComponent } from './scatterplot/scatterplot.component';
 import { ScaleComponent } from './scale/scale.component';
 import { AxisscatterplotComponent } from './axisscatterplot/axisscatterplot.component';
+import { AxistimeComponent } from './axistime/axistime.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AxisscatterplotComponent } from './axisscatterplot/axisscatterplot.comp
     MakingbarchartComponent,
     ScatterplotComponent,
     ScaleComponent,
-    AxisscatterplotComponent
+    AxisscatterplotComponent,
+    AxistimeComponent
   ],
   imports: [
     BrowserModule,

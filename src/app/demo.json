@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 7,
+      "name": "axis-time",
+      "description":"show time with axis"
+    },
+    {
       "id": 6,
       "name": "axis-scatterplot",
       "description":"Random number scatter plot with axis"
