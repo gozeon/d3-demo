@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 6,
+      "name": "axes-scatterplot",
+      "description":"Random number scatter plot with axes"
+    },
+    {
       "id": 5,
       "name": "scale",
       "description": "how to use base scale"
