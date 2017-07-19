@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as d3 from 'd3';
 // var data = <any>require('../../assets/demo.json');
-import * as data from '../../assets/demo.json';
+import * as data from '../demo.json';
 
 @Component({
   selector: 'app-dashboard',
