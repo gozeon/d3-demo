@@ -18,8 +18,9 @@ export class PowerofdataroundedComponent implements OnInit {
       const newNumber = Math.floor(Math.random() * 30);  // New random integer (0-29)
       dataset.push(newNumber);			 // Add new number to array
     }
+    d3.select('.result').append('div').attr('class','tmp')
 
-    d3.select('.result').selectAll('div')
+    d3.select('.tmp').selectAll('div')
       .data(dataset)
       .enter()
       .append('div')
