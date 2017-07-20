@@ -18,6 +18,7 @@ import { AxistimeformatComponent } from './demos/axistimeformat/axistimeformat.c
 import { TransitiondurationComponent } from './demos/transitionduration/transitionduration.component';
 import { EasingComponent } from './demos/easing/easing.component';
 import { DelaydynamicComponent } from './demos/delaydynamic/delaydynamic.component';
+import { DelaydynamicrandomComponent } from './demos/delaydynamicrandom/delaydynamicrandom.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { DelaydynamicComponent } from './demos/delaydynamic/delaydynamic.compone
     AxistimeformatComponent,
     TransitiondurationComponent,
     EasingComponent,
-    DelaydynamicComponent
+    DelaydynamicComponent,
+    DelaydynamicrandomComponent
   ],
   imports: [
     BrowserModule,
