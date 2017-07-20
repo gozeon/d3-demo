@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 13,
+      "name": "axis-scatter-plot-dynamic",
+      "description": "transitioning points to randomized values"
+    },
+    {
       "id": 12,
       "name": "delay-dynamic-random-data",
       "description": "update data with dynamic delay and random data"

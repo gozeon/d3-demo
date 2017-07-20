@@ -19,6 +19,7 @@ import { TransitiondurationComponent } from './demos/transitionduration/transiti
 import { EasingComponent } from './demos/easing/easing.component';
 import { DelaydynamicComponent } from './demos/delaydynamic/delaydynamic.component';
 import { DelaydynamicrandomComponent } from './demos/delaydynamicrandom/delaydynamicrandom.component';
+import { AxisscatterplotdynamicComponent } from './demos/axisscatterplotdynamic/axisscatterplotdynamic.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { DelaydynamicrandomComponent } from './demos/delaydynamicrandom/delaydyn
     TransitiondurationComponent,
     EasingComponent,
     DelaydynamicComponent,
-    DelaydynamicrandomComponent
+    DelaydynamicrandomComponent,
+    AxisscatterplotdynamicComponent
   ],
   imports: [
     BrowserModule,
