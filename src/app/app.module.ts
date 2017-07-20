@@ -15,6 +15,7 @@ import { ScaleComponent } from './demos/scale/scale.component';
 import { AxisscatterplotComponent } from './demos/axisscatterplot/axisscatterplot.component';
 import { AxistimeComponent } from './demos/axistime/axistime.component';
 import { AxistimeformatComponent } from './demos/axistimeformat/axistimeformat.component';
+import { TransitiondurationComponent } from './demos/transitionduration/transitionduration.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AxistimeformatComponent } from './demos/axistimeformat/axistimeformat.c
     ScaleComponent,
     AxisscatterplotComponent,
     AxistimeComponent,
-    AxistimeformatComponent
+    AxistimeformatComponent,
+    TransitiondurationComponent
   ],
   imports: [
     BrowserModule,

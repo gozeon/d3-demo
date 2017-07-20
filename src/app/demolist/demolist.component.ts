@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as data from '../demo.json';
+import * as data from '../demos/demo.json';
 import { Demo } from '../demo';
 import { Router } from '@angular/router';
 
