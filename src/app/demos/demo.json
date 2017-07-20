@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 10,
+      "name": "[type]-easing",
+      "description": "update data with [type] easing"
+    },
+    {
       "id": 9,
       "name": "transition-duration",
       "description": "update data with tarnsition and duration"

@@ -16,6 +16,7 @@ import { AxisscatterplotComponent } from './demos/axisscatterplot/axisscatterplo
 import { AxistimeComponent } from './demos/axistime/axistime.component';
 import { AxistimeformatComponent } from './demos/axistimeformat/axistimeformat.component';
 import { TransitiondurationComponent } from './demos/transitionduration/transitionduration.component';
+import { EasingComponent } from './demos/easing/easing.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TransitiondurationComponent } from './demos/transitionduration/transiti
     AxisscatterplotComponent,
     AxistimeComponent,
     AxistimeformatComponent,
-    TransitiondurationComponent
+    TransitiondurationComponent,
+    EasingComponent
   ],
   imports: [
     BrowserModule,
