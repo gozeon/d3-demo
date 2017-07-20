@@ -6,15 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DemolistComponent } from './demolist/demolist.component';
 import { DemodetailComponent } from './demodetail/demodetail.component';
-import { PowerofdataroundedComponent } from './powerofdatarounded/powerofdatarounded.component';
-import { EditorComponent } from './editor/editor.component';
-import { DrawingsvgscolorComponent } from './drawingsvgscolor/drawingsvgscolor.component';
-import { MakingbarchartComponent } from './makingbarchart/makingbarchart.component';
-import { ScatterplotComponent } from './scatterplot/scatterplot.component';
-import { ScaleComponent } from './scale/scale.component';
-import { AxisscatterplotComponent } from './axisscatterplot/axisscatterplot.component';
-import { AxistimeComponent } from './axistime/axistime.component';
-import { AxistimeformatComponent } from './axistimeformat/axistimeformat.component';
+import { PowerofdataroundedComponent } from './demos/powerofdatarounded/powerofdatarounded.component';
+import { EditorComponent } from './common/editor/editor.component';
+import { DrawingsvgscolorComponent } from './demos/drawingsvgscolor/drawingsvgscolor.component';
+import { MakingbarchartComponent } from './demos/makingbarchart/makingbarchart.component';
+import { ScatterplotComponent } from './demos/scatterplot/scatterplot.component';
+import { ScaleComponent } from './demos/scale/scale.component';
+import { AxisscatterplotComponent } from './demos/axisscatterplot/axisscatterplot.component';
+import { AxistimeComponent } from './demos/axistime/axistime.component';
+import { AxistimeformatComponent } from './demos/axistimeformat/axistimeformat.component';
 
 @NgModule({
   declarations: [

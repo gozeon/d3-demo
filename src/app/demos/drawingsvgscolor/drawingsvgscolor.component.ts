@@ -3,8 +3,8 @@ import * as d3 from 'd3';
 
 @Component({
   selector: 'app-drawingsvgscolor',
-  templateUrl: '../common/common.html',
-  styleUrls: ['../common/common.css']
+  templateUrl: '../../common/common.html',
+  styleUrls: ['../../common/common.css']
 })
 export class DrawingsvgscolorComponent implements OnInit {
   private code: string;

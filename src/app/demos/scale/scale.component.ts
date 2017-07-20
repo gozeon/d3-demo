@@ -3,8 +3,8 @@ import * as d3 from 'd3';
 
 @Component({
   selector: 'app-scale',
-  templateUrl: '../common/common.html',
-  styleUrls: ['../common/common.css']
+  templateUrl: '../../common/common.html',
+  styleUrls: ['../../common/common.css']
 })
 export class ScaleComponent implements OnInit {
   private code: string;
