@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 11,
+      "name": "delay-dynamic",
+      "description": "update data with dynamic delay"
+    },
+    {
       "id": 10,
       "name": "[type]-easing",
       "description": "update data with [type] easing"
