@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 15,
+      "name": "add-and-remove",
+      "description": "add data item and remove data item"
+    },
+    {
       "id": 14,
       "name": "on",
       "description": "using on() at transitions' start and end"
