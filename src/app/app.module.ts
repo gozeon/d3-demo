@@ -20,6 +20,7 @@ import { EasingComponent } from './demos/easing/easing.component';
 import { DelaydynamicComponent } from './demos/delaydynamic/delaydynamic.component';
 import { DelaydynamicrandomComponent } from './demos/delaydynamicrandom/delaydynamicrandom.component';
 import { AxisscatterplotdynamicComponent } from './demos/axisscatterplotdynamic/axisscatterplotdynamic.component';
+import { OnComponent } from './demos/on/on.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { AxisscatterplotdynamicComponent } from './demos/axisscatterplotdynamic/
     EasingComponent,
     DelaydynamicComponent,
     DelaydynamicrandomComponent,
-    AxisscatterplotdynamicComponent
+    AxisscatterplotdynamicComponent,
+    OnComponent
   ],
   imports: [
     BrowserModule,

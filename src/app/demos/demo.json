@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 14,
+      "name": "on",
+      "description": "using on() at transitions' start and end"
+    },
+    {
       "id": 13,
       "name": "axis-scatter-plot-dynamic",
       "description": "transitioning points to randomized values"
