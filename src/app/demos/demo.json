@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 16,
+      "name": "sort",
+      "description": "click to sort datas"
+    },
+    {
       "id": 15,
       "name": "add-and-remove",
       "description": "add data item and remove data item"

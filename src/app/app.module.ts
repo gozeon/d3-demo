@@ -22,6 +22,7 @@ import { DelaydynamicrandomComponent } from './demos/delaydynamicrandom/delaydyn
 import { AxisscatterplotdynamicComponent } from './demos/axisscatterplotdynamic/axisscatterplotdynamic.component';
 import { OnComponent } from './demos/on/on.component';
 import { AddandremoveComponent } from './demos/addandremove/addandremove.component';
+import { SortComponent } from './demos/sort/sort.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { AddandremoveComponent } from './demos/addandremove/addandremove.compone
     DelaydynamicrandomComponent,
     AxisscatterplotdynamicComponent,
     OnComponent,
-    AddandremoveComponent
+    AddandremoveComponent,
+    SortComponent
   ],
   imports: [
     BrowserModule,
