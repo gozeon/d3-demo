@@ -50,6 +50,7 @@ export class TooltipComponent implements OnInit {
       .attr('fill', function (d) {
         return 'rgb(0, 0, ' + Math.round(d * 10) + ')';
       })
+      .attr('class', 'tooltip-rect')
       .on('mouseover', function (d) {
         const xPosition = parseFloat(d3.select(this).attr('x')) + xScale.bandwidth() / 2;
         const yPosition = parseFloat(d3.select(this).attr('y')) / 2 + h / 2;
