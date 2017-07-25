@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 17,
+      "name": "tooltip",
+      "description": "show tooltip"
+    },
+    {
       "id": 16,
       "name": "sort",
       "description": "click to sort datas"

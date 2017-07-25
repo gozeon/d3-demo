@@ -23,6 +23,7 @@ import { AxisscatterplotdynamicComponent } from './demos/axisscatterplotdynamic/
 import { OnComponent } from './demos/on/on.component';
 import { AddandremoveComponent } from './demos/addandremove/addandremove.component';
 import { SortComponent } from './demos/sort/sort.component';
+import { TooltipComponent } from './demos/tooltip/tooltip.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { SortComponent } from './demos/sort/sort.component';
     AxisscatterplotdynamicComponent,
     OnComponent,
     AddandremoveComponent,
-    SortComponent
+    SortComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,
