@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 18,
+      "name": "line-area-chart",
+      "description": "show line and average area"
+    },
+    {
       "id": 17,
       "name": "tooltip",
       "description": "show tooltip"

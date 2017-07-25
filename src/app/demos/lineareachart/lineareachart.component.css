@@ -1,0 +1,25 @@
+.line-area {
+  fill: teal;
+  stroke: none;
+}
+
+.line-line {
+  fill: none;
+  stroke: teal;
+  stroke-width: 0.5;
+}
+
+.line-safeLevel {
+  stroke: red;
+  stroke-dasharray: 2, 3;
+}
+
+.line-danger {
+  fill: red;
+}
+
+.line-dangerLabel {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  fill: red;
+}

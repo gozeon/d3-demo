@@ -24,6 +24,7 @@ import { OnComponent } from './demos/on/on.component';
 import { AddandremoveComponent } from './demos/addandremove/addandremove.component';
 import { SortComponent } from './demos/sort/sort.component';
 import { TooltipComponent } from './demos/tooltip/tooltip.component';
+import { LineareachartComponent } from './demos/lineareachart/lineareachart.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { TooltipComponent } from './demos/tooltip/tooltip.component';
     OnComponent,
     AddandremoveComponent,
     SortComponent,
-    TooltipComponent
+    TooltipComponent,
+    LineareachartComponent
   ],
   imports: [
     BrowserModule,
