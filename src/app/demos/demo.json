@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 27,
+      "name": "force_draggable",
+      "description": "force layout, can draggable"
+    },
+    {
       "id": 26,
       "name": "stacked_area",
       "description": "stacked area chart"

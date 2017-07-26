@@ -33,6 +33,7 @@ import { PieComponent } from './demos/pie/pie.component';
 import { DoughnutComponent } from './demos/doughnut/doughnut.component';
 import { StackedbaranchoredComponent } from './demos/stackedbaranchored/stackedbaranchored.component';
 import { StackedareaComponent } from './demos/stackedarea/stackedarea.component';
+import { ForcedraggableComponent } from './demos/forcedraggable/forcedraggable.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { StackedareaComponent } from './demos/stackedarea/stackedarea.component'
     PieComponent,
     DoughnutComponent,
     StackedbaranchoredComponent,
-    StackedareaComponent
+    StackedareaComponent,
+    ForcedraggableComponent
   ],
   imports: [
     BrowserModule,
