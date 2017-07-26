@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 21,
+      "name": "combinations",
+      "description": "using radio buttons to trigger different combinations of filters"
+    },
+    {
       "id": 20,
       "name": "radios",
       "description": "using radio buttons to set filter threshold value"

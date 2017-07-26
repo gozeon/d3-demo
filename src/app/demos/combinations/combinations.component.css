@@ -1,0 +1,17 @@
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+input[type=radio] {
+  margin-left: 40px;
+}
+
+.result {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}

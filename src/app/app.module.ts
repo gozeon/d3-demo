@@ -27,6 +27,7 @@ import { TooltipComponent } from './demos/tooltip/tooltip.component';
 import { LineareachartComponent } from './demos/lineareachart/lineareachart.component';
 import { SliderComponent } from './demos/slider/slider.component';
 import { RadiosComponent } from './demos/radios/radios.component';
+import { CombinationsComponent } from './demos/combinations/combinations.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { RadiosComponent } from './demos/radios/radios.component';
     TooltipComponent,
     LineareachartComponent,
     SliderComponent,
-    RadiosComponent
+    RadiosComponent,
+    CombinationsComponent
   ],
   imports: [
     BrowserModule,
