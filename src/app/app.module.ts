@@ -28,6 +28,7 @@ import { LineareachartComponent } from './demos/lineareachart/lineareachart.comp
 import { SliderComponent } from './demos/slider/slider.component';
 import { RadiosComponent } from './demos/radios/radios.component';
 import { CombinationsComponent } from './demos/combinations/combinations.component';
+import { EachComponent } from './demos/each/each.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { CombinationsComponent } from './demos/combinations/combinations.compone
     LineareachartComponent,
     SliderComponent,
     RadiosComponent,
-    CombinationsComponent
+    CombinationsComponent,
+    EachComponent
   ],
   imports: [
     BrowserModule,

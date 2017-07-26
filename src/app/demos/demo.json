@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 22,
+      "name": "each",
+      "description": "using each() to run an arbitrary function on each element in a selection"
+    },
+    {
       "id": 21,
       "name": "combinations",
       "description": "using radio buttons to trigger different combinations of filters"
