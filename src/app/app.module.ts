@@ -30,6 +30,7 @@ import { RadiosComponent } from './demos/radios/radios.component';
 import { CombinationsComponent } from './demos/combinations/combinations.component';
 import { EachComponent } from './demos/each/each.component';
 import { PieComponent } from './demos/pie/pie.component';
+import { DoughnutComponent } from './demos/doughnut/doughnut.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { PieComponent } from './demos/pie/pie.component';
     RadiosComponent,
     CombinationsComponent,
     EachComponent,
-    PieComponent
+    PieComponent,
+    DoughnutComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 24,
+      "name": "doughnut",
+      "description": "pie layout doughnut chart"
+    },
+    {
       "id": 23,
       "name": "pie",
       "description": "pie layout pie chart"
