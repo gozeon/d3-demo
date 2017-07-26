@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 19,
+      "name": "slider",
+      "description": "filtering selections based on slider input values"
+    },
+    {
       "id": 18,
       "name": "line-area-chart",
       "description": "show line and average area"

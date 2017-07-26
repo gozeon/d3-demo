@@ -25,6 +25,7 @@ import { AddandremoveComponent } from './demos/addandremove/addandremove.compone
 import { SortComponent } from './demos/sort/sort.component';
 import { TooltipComponent } from './demos/tooltip/tooltip.component';
 import { LineareachartComponent } from './demos/lineareachart/lineareachart.component';
+import { SliderComponent } from './demos/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { LineareachartComponent } from './demos/lineareachart/lineareachart.comp
     AddandremoveComponent,
     SortComponent,
     TooltipComponent,
-    LineareachartComponent
+    LineareachartComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
