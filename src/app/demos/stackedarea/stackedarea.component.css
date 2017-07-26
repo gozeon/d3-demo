@@ -1,0 +1,7 @@
+.area {
+  stroke: none;
+}
+
+.area:hover {
+  fill: yellow;
+}

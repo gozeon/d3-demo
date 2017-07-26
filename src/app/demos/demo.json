@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 26,
+      "name": "stacked_area",
+      "description": "stacked area chart"
+    },
+    {
       "id": 25,
       "name": "stacked_bar_anchored",
       "description": "stack layout stacked bar chart, anchored at bottom"
