@@ -29,6 +29,7 @@ import { SliderComponent } from './demos/slider/slider.component';
 import { RadiosComponent } from './demos/radios/radios.component';
 import { CombinationsComponent } from './demos/combinations/combinations.component';
 import { EachComponent } from './demos/each/each.component';
+import { PieComponent } from './demos/pie/pie.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { EachComponent } from './demos/each/each.component';
     SliderComponent,
     RadiosComponent,
     CombinationsComponent,
-    EachComponent
+    EachComponent,
+    PieComponent
   ],
   imports: [
     BrowserModule,

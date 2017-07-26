@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 23,
+      "name": "pie",
+      "description": "pie layout pie chart"
+    },
+    {
       "id": 22,
       "name": "each",
       "description": "using each() to run an arbitrary function on each element in a selection"
