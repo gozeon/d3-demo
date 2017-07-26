@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 25,
+      "name": "stacked_bar_anchored",
+      "description": "stack layout stacked bar chart, anchored at bottom"
+    },
+    {
       "id": 24,
       "name": "doughnut",
       "description": "pie layout doughnut chart"

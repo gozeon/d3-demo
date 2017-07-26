@@ -31,6 +31,7 @@ import { CombinationsComponent } from './demos/combinations/combinations.compone
 import { EachComponent } from './demos/each/each.component';
 import { PieComponent } from './demos/pie/pie.component';
 import { DoughnutComponent } from './demos/doughnut/doughnut.component';
+import { StackedbaranchoredComponent } from './demos/stackedbaranchored/stackedbaranchored.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { DoughnutComponent } from './demos/doughnut/doughnut.component';
     CombinationsComponent,
     EachComponent,
     PieComponent,
-    DoughnutComponent
+    DoughnutComponent,
+    StackedbaranchoredComponent
   ],
   imports: [
     BrowserModule,
