@@ -26,6 +26,7 @@ import { SortComponent } from './demos/sort/sort.component';
 import { TooltipComponent } from './demos/tooltip/tooltip.component';
 import { LineareachartComponent } from './demos/lineareachart/lineareachart.component';
 import { SliderComponent } from './demos/slider/slider.component';
+import { RadiosComponent } from './demos/radios/radios.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { SliderComponent } from './demos/slider/slider.component';
     SortComponent,
     TooltipComponent,
     LineareachartComponent,
-    SliderComponent
+    SliderComponent,
+    RadiosComponent
   ],
   imports: [
     BrowserModule,

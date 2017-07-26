@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 20,
+      "name": "radios",
+      "description": "using radio buttons to set filter threshold value"
+    },
+    {
       "id": 19,
       "name": "slider",
       "description": "filtering selections based on slider input values"
