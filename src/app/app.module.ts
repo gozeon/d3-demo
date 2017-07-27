@@ -37,6 +37,7 @@ import { ForcedraggableComponent } from './demos/forcedraggable/forcedraggable.c
 import { PathComponent } from './demos/path/path.component';
 import { PathprojectionComponent } from './demos/pathprojection/pathprojection.component';
 import { PathscaledComponent } from './demos/pathscaled/pathscaled.component';
+import { MapComponent } from './demos/map/map.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { PathscaledComponent } from './demos/pathscaled/pathscaled.component';
     ForcedraggableComponent,
     PathComponent,
     PathprojectionComponent,
-    PathscaledComponent
+    PathscaledComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
