@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 29,
+      "name": "path-projection",
+      "description": "applying a projection to SVG paths"
+    },
+    {
       "id": 28,
       "name": "path",
       "description": "loading GeoJSON data and generating SVG paths"
