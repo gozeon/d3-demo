@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 32,
+      "name": "map-oceans",
+      "description": "loading oceans GeoJSON data"
+    },
+    {
       "id": 31,
       "name": "map",
       "description": "mini map"
