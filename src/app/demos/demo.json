@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 33,
+      "name": "map-mercator",
+      "description": "mercator projection applied to oceans"
+    },
+    {
       "id": 32,
       "name": "map-oceans",
       "description": "loading oceans GeoJSON data"

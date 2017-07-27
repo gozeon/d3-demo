@@ -39,6 +39,7 @@ import { PathprojectionComponent } from './demos/pathprojection/pathprojection.c
 import { PathscaledComponent } from './demos/pathscaled/pathscaled.component';
 import { MapComponent } from './demos/map/map.component';
 import { MapoceansComponent } from './demos/mapoceans/mapoceans.component';
+import { MapmeractorComponent } from './demos/mapmeractor/mapmeractor.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { MapoceansComponent } from './demos/mapoceans/mapoceans.component';
     PathprojectionComponent,
     PathscaledComponent,
     MapComponent,
-    MapoceansComponent
+    MapoceansComponent,
+    MapmeractorComponent
   ],
   imports: [
     BrowserModule,
