@@ -34,6 +34,7 @@ import { DoughnutComponent } from './demos/doughnut/doughnut.component';
 import { StackedbaranchoredComponent } from './demos/stackedbaranchored/stackedbaranchored.component';
 import { StackedareaComponent } from './demos/stackedarea/stackedarea.component';
 import { ForcedraggableComponent } from './demos/forcedraggable/forcedraggable.component';
+import { PathComponent } from './demos/path/path.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { ForcedraggableComponent } from './demos/forcedraggable/forcedraggable.c
     DoughnutComponent,
     StackedbaranchoredComponent,
     StackedareaComponent,
-    ForcedraggableComponent
+    ForcedraggableComponent,
+    PathComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 28,
+      "name": "path",
+      "description": "loading GeoJSON data and generating SVG paths"
+    },
+    {
       "id": 27,
       "name": "force_draggable",
       "description": "force layout, can draggable"
