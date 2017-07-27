@@ -36,6 +36,7 @@ import { StackedareaComponent } from './demos/stackedarea/stackedarea.component'
 import { ForcedraggableComponent } from './demos/forcedraggable/forcedraggable.component';
 import { PathComponent } from './demos/path/path.component';
 import { PathprojectionComponent } from './demos/pathprojection/pathprojection.component';
+import { PathscaledComponent } from './demos/pathscaled/pathscaled.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { PathprojectionComponent } from './demos/pathprojection/pathprojection.c
     StackedareaComponent,
     ForcedraggableComponent,
     PathComponent,
-    PathprojectionComponent
+    PathprojectionComponent,
+    PathscaledComponent
   ],
   imports: [
     BrowserModule,
