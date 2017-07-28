@@ -1,0 +1,39 @@
+.linearareamap-area {
+  stroke: none;
+  cursor: pointer;
+}
+
+.linearareamap-area:hover {
+  fill: rgb(175, 240, 91);
+}
+
+#backButton {
+  cursor: pointer;
+}
+
+#backButton rect {
+  fill: rgb(175, 240, 91);
+}
+
+#backButton text {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  fill: black;
+}
+
+#backButton:hover rect {
+  fill: rgb(26, 199, 194);
+}
+
+#backButton:hover text {
+  fill: white;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+.result {
+  width: 700px;
+}

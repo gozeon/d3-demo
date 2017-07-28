@@ -1,6 +1,11 @@
 {
   "demos": [
     {
+      "id": 34,
+      "name": "linear-area-map",
+      "description": "a linear area map with interactive effects"
+    },
+    {
       "id": 33,
       "name": "map-mercator",
       "description": "mercator projection applied to oceans"

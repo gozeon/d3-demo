@@ -40,6 +40,7 @@ import { PathscaledComponent } from './demos/pathscaled/pathscaled.component';
 import { MapComponent } from './demos/map/map.component';
 import { MapoceansComponent } from './demos/mapoceans/mapoceans.component';
 import { MapmeractorComponent } from './demos/mapmeractor/mapmeractor.component';
+import { LinearareamapComponent } from './demos/linearareamap/linearareamap.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { MapmeractorComponent } from './demos/mapmeractor/mapmeractor.component'
     PathscaledComponent,
     MapComponent,
     MapoceansComponent,
-    MapmeractorComponent
+    MapmeractorComponent,
+    LinearareamapComponent
   ],
   imports: [
     BrowserModule,
