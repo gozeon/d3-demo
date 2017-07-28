@@ -1,3 +1,4 @@
+/* tslint:disable */
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import * as d3 from 'd3';
 
@@ -13,7 +14,6 @@ export class LinearareamapComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    /* tslint:disable */
     const w = 700;
     const h = 300;
     const padding = 20;
@@ -690,7 +690,7 @@ export class LinearareamapComponent implements OnInit {
           .attr('opacity', 0);
       }
     };
-    /* tslint:enable */
+
     this.code = `const w = 700;
 const h = 300;
 const padding = 20;
@@ -1370,3 +1370,4 @@ const toggleBackButton = function () {
   }
 
 }
+/* tslint:enable */
